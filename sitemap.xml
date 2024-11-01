@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://ilaveniranjith.github.io/index.html</loc>
+         <lastmod>2024-11-01</lastmod>
+    </url>
+    <url>
+         <loc>https://ilaveniranjith.github.io/downloading_and_building/downloading_and_building_aosp.html</loc>
+         <lastmod>2024-11-01</lastmod>
+    </url>
+    <url>
+         <loc>https://ilaveniranjith.github.io/downloading_and_building/downloading_and_compiling_kernel.html</loc>
+         <lastmod>2024-11-01</lastmod>
+    </url>
+    <url>
+         <loc>https://ilaveniranjith.github.io/system_service/create_system_service.html</loc>
+         <lastmod>2024-11-01</lastmod>
+    </url>
+</urlset>
