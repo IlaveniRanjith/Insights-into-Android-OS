@@ -1,0 +1,159 @@
+site_name: Insights into Android OS
+site_url: https://ilaveniranjith.github.io/
+# edit_uri: docs/edit/main/docs
+use_directory_urls: false
+repo_name: Insights into Android OS
+repo_url: https://github.com/IlaveniRanjith/ilaveniranjith.github.io
+nav:
+  - Home: index.md
+  - Blogs:
+          - Downloaing and Building AOSP: downloading_and_building/downloading_and_building_aosp.md
+          - Downloaing and Compiling Kernel: downloading_and_building/downloading_and_compiling_kernel.md
+          - Custom System Service in Android: system_service/create_system_service.md
+          - Ways to Harden the AOSP: hardening/hardening-steps-overview.md
+          - Downloading & Building AOSP:
+                    - Prerequisites: hardening/1-establishing-environment/1-requirements-aosp.md
+                    - Introduction: hardening/1-establishing-environment/2-setting-up-environment.md
+                    - Selecting AOSP & Kernel Branch: hardening/1-establishing-environment/3-selecting-aosp-and-kernel-branch.md
+
+
+theme:
+        name: material
+        icon:
+            admonition:
+                note: octicons/tag-16
+                abstract: octicons/checklist-16
+                info: octicons/info-16
+                tip: octicons/squirrel-16
+                success: octicons/check-16
+                question: octicons/question-16
+                warning: octicons/alert-16
+                failure: octicons/x-circle-16
+                danger: octicons/zap-16
+                bug: octicons/bug-16
+                example: octicons/beaker-16
+                quote: octicons/quote-16
+        palette:
+            # Light side
+            - scheme: default
+              primary: white
+              accent: indigo
+              toggle:
+                icon: material/toggle-switch-off-outline
+                name: Switch to the dark side
+
+
+            - scheme: slaet
+
+        
+              primary: black
+              accent: indigo #red
+              toggle:
+                icon: material/toggle-switch
+                name: Switch to the light side
+
+        logo: assets/blog.png
+
+        favicon: assets/favicon.png
+        features:
+                - navigation.top
+                - navigation.tabs
+                - navigation.footer
+                - content.code.copy
+                - content.code.annotate
+
+
+markdown_extensions:
+  - extra
+  - admonition
+  - footnotes
+  - pymdownx.highlight:
+      use_pygments: true
+      pygments_lang_class: true
+      line_spans: __span
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.keys
+  - pymdownx.superfences:
+      custom_fences:
+        - name: '*'
+          class: '*'
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.keys:
+      key_map:
+                    {
+                          "circumflex": "^",
+                          "dollar": "$",
+                          "percent": "%",
+                          "parenthesis-left": "(",
+                          "parenthesis-right": ")",
+                    }
+  - pymdownx.smartsymbols
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - markdown_include.include
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.progressbar
+  - tables
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: True
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+extra_css:
+  - stylesheets/extra.css
+  - stylesheets/pdf-print.css
+  - assets/extra.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/IlaveniRanjith
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/IlaveniRanjith?t=RxkThMbzUZcAb6Wxc_VSTg&s=09
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/ranjith-ilaveni-8386a6179
+
+
+extra_javascript:
+      - https://polyfill.io/v3/polyfill.min.js?features=es6
+      - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+      - https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js
+
+plugins:
+   - search
+   - glightbox:
+       touchNavigation: true
+       loop: false
+       effect: zoom
+       slide_effect: slide
+       width: 100%
+       height: auto
+       zoomable: true
+       draggable: true
+       skip_classes:
+         - custom-skip-class-name
+       auto_caption: false
+       caption_position: bottom
+   - awesome-pages
+   - include-markdown
+  
+
+copyright: |
+      &copy: 2024 <a href="https://github.com/IlaveniRanjith"  target="_blank" rel="noopener">Ilaveni Ranjith</a>

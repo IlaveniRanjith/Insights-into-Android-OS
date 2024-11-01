@@ -1,0 +1,35 @@
+# Requirements for core
+jinja2~=3.0
+markdown~=3.2
+mkdocs~=1.5,>=1.5.3
+mkdocs-material-extensions~=1.2
+mkdocs-git-revision-date-localized-plugin~=1.2.1
+pygments~=2.16
+pymdown-extensions~=10.2
+
+# Requirements for plugins
+babel~=2.10
+colorama~=0.4
+paginate~=0.5
+regex>=2022.4
+requests~=2.26
+mkdocs-awesome-pages-plugin~=2.9.2
+markdown-include~=0.8.1
+mkdocs-include-markdown-plugin~=6.0.4
+
+# Requirements for docs plugins
+markdown-blockdiag==0.8.0
+mkdocs-glightbox==0.3.4
+mkdocs-print-site-plugin==2.3.6
+mkdocs-with-pdf==0.9.3
+qrcode==7.4.2
+
+
+# Requrements for prefix
+mkdocs-material>=8.4.3
+mike>=1.1.2
+beautifulsoup4>=4.8.2
+lxml>=4.5.0
+
+# distutils
+distutils-pytest
