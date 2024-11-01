@@ -10,11 +10,7 @@ nav:
           - Downloaing and Building AOSP: downloading_and_building/downloading_and_building_aosp.md
           - Downloaing and Compiling Kernel: downloading_and_building/downloading_and_compiling_kernel.md
           - Custom System Service in Android: system_service/create_system_service.md
-          - Ways to Harden the AOSP: hardening/hardening-steps-overview.md
-          - Downloading & Building AOSP:
-                    - Prerequisites: hardening/1-establishing-environment/1-requirements-aosp.md
-                    - Introduction: hardening/1-establishing-environment/2-setting-up-environment.md
-                    - Selecting AOSP & Kernel Branch: hardening/1-establishing-environment/3-selecting-aosp-and-kernel-branch.md
+          
 
 
 theme:
